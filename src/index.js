@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+import "./App.css";
+import TodoContainer from "./components/TodoContainer";
+import { BrowserRouter as Router } from "react-router-dom";
+ReactDOM.render(
+  <Router>
+    <TodoContainer />{" "}
+  </Router>,
+  document.getElementById("root")
+);
