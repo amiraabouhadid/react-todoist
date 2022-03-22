@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+.active {
+  color: orangered;
+  text-decoration: underline;
+}
 
 body {
   font-family: "Segoe UI", Arial, sans-serif;
